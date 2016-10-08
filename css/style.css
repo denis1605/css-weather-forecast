@@ -1,0 +1,112 @@
+*{
+	transition: all .1s ease-in;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+html, body{
+	min-height: 100%;
+}
+
+html{
+	height: 100%;
+	}
+
+body{
+	font: 400 23px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+    background-color: #3399CC;
+    color: #fff;
+    border: 10px solid #2B81AC;
+}
+div {
+	margin: auto auto;
+	max-width: 600px;
+	padding-bottom: 50px;
+}
+
+.ba-header{
+	margin: 25px 0px 25px;
+	font-size: 15px;
+}
+.ba-footer{
+	margin-top: 15px;
+	font-size: 17px;
+}
+.ba-weather-city{
+	border:2px solid #fff;
+	list-style: none;
+	text-align: center;
+	font-size: 0;
+
+}
+.ba-weather-city li{
+	display: inline-block;
+	border: 2px solid #fff;
+	font-size: 17px;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+
+}
+span{
+	display:block;
+	padding: 5px;
+	color: #CDDDDD;
+}
+i{
+	padding: 5px;
+}
+.ba-city1{
+	background: #3399CC;
+	width: 50%;
+}
+.ba-city2{
+	background: #33CCCC;
+	width: 25%;
+}
+.ba-city3{
+	background: #E2674A;
+	width: 25%;
+}
+.ba-city4{
+	background: #C24747;
+	width: 25%;
+}
+.ba-city5{
+	background: #996699;
+	width: 25%;
+}
+.ba-city6{
+	background: #FFCC66;
+	width: 25%;
+}
+.ba-city7{
+	background: #99CC99;
+	width: 25%;
+}
+.ba-city8{
+	background: #669999;
+	width: 25%;
+}
+.ba-city9{
+	background: #CC6699;
+	width: 50%;
+}
+.ba-city10{
+	background: #339966;
+	width: 25%;
+}
+.ba-city11{
+	background: #666699;
+	width: 100%;
+}
+
+ul:hover li{
+ opacity: 0.5;
+ }
+ul li:hover {
+ opacity: 1;
+ }
+
